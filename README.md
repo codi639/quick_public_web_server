@@ -2,7 +2,7 @@
 Serves a folder locally and exposes it via Cloudflare’s try-tunnel for short-lived testing.
 
 ```bash
-./serve_rfi.sh /path/to/folder <port>
+./fast_public_server.sh /path/to/folder <port>
 ```
 Default path is pwd and default port is 8156.
 
